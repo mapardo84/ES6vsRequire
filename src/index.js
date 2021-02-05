@@ -1,11 +1,11 @@
 
-//Forma 1, similar a java
+//Forma 1, la mas feita
 import * as mod1  from "./modulo1"
 //Forma 2, manera especifica, solo se toma lo que se necesite
-import {sumar, saludar} from "./modulo1"
-import {multiplicacion,division} from "./modulo2"
+import {saludar} from "./modulo1"
+import {multiplicacion,division} from "./modulo2.js"
 
-//Forma 3, utilizando el export por defecto en el modulo 3
+//Forma 3, utilizando el export por defecto (ver el modulo 3)
 import defecto from "./modulo3"
 
 //UTILIZANDO REQUIRE ANTIGUO
