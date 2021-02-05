@@ -1,4 +1,5 @@
-var mod1 = require("./modulo1")
-var mod2 = require("./modulo2")
+//UTILIZANDO REQUIRE ANTIGUO
+var mod1 = require("./modulo5")
 
-console.log("holoaaa")
+
+console.log(mod1.sumar(1,2))
