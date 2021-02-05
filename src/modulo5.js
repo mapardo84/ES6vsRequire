@@ -7,4 +7,7 @@ function saludar(){
     console.log("Holi!!!, modulo 1")
 }
 
-module.exports = {sumar, saludar};
+//Una forma es colocar el export al final
+export {sumar,saludar};
+
+//Otra puede ser colocar el export en la funcion directamente, ver el modulo2.js
